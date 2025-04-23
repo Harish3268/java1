@@ -1,3 +1,4 @@
+
 class demo {
     public static void main(String[] args) {
         int a = 10;
@@ -7,7 +8,6 @@ class demo {
         int sub = a - b;
         int mult = a * b;
 
-        // Handling division to avoid divide-by-zero errors
         String div = (b != 0) ? String.valueOf(a / b) : "Undefined (cannot divide by zero)";
 
         System.out.println("Sum is = " + sum);
